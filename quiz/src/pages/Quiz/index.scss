@@ -1,0 +1,57 @@
+.form-quiz {
+    text-align: left; // Quan trọng: Reset lại text-align center của cha
+    width: 100%;
+    max-width: 800px; // Giới hạn độ rộng để dễ đọc hơn trên màn hình lớn
+    margin: 20px auto; // Căn giữa toàn bộ khối quiz
+
+    &__item {
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #fff; // Tạo khối trắng cho mỗi câu hỏi
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+        p {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__answer {
+        display: flex; // Đưa input và label lên cùng hàng
+        align-items: center; // Căn giữa theo chiều dọc
+        gap: 10px; // Khoảng cách giữa nút radio và chữ
+        padding: 8px 0;
+        cursor: pointer;
+
+        input[type="radio"] {
+            width: 18px; // Chỉnh kích thước nút radio cho dễ bấm
+            height: 18px;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        label {
+            cursor: pointer;
+            flex: 1; // Cho phép label chiếm hết phần còn lại để dễ click
+        }
+
+        &:hover {
+            background-color: #f9f9f9; // Hiệu ứng khi di chuột vào đáp án
+        }
+    }
+
+    button[type="submit"] {
+        padding: 10px 30px;
+        background-color: #f1a100;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #d18d00;
+        }
+    }
+}

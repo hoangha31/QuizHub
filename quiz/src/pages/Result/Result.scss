@@ -1,0 +1,102 @@
+    .result__tag--true {
+        color: green;
+    }
+
+    .result__tag--false {
+        color: red;
+    }
+
+    .result__item--selected {
+        color: red
+    }
+
+    .result__item--result {
+        color: green;
+    }
+
+    .result {
+        &__item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            text-align: left;
+
+            p {
+                font-size: 18px;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+
+
+            .form-quiz__answer {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 10px;
+                border-radius: 6px;
+                margin-bottom: 8px;
+                border: 1px solid transparent;
+
+                input[type="radio"] {
+                    width: 18px;
+                    height: 18px;
+                    cursor: not-allowed;
+                }
+
+                label {
+                    flex: 1;
+                    font-size: 16px;
+                    cursor: not-allowed;
+                }
+            }
+
+
+            &--selected {
+                color: #fff !important;
+                background-color: #ff4d4f;
+                padding: 5px 10px;
+                border-radius: 4px;
+            }
+
+
+            &--result {
+                color: #fff !important;
+                background-image: linear-gradient(to right, #52c41a, #73d13d); // Màu xanh lá
+                padding: 5px 10px;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+
+            &--selected.result__item--result {
+                background-color: #52c41a;
+            }
+        }
+
+
+        &__tag {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            color: white;
+            text-transform: uppercase;
+
+            &--true {
+                background-color: #52c41a;
+            }
+
+            &--false {
+                background-color: #ff4d4f;
+            }
+        }
+    }
+
+
+    h1 {
+        color: #333;
+        margin-bottom: 30px;
+    }

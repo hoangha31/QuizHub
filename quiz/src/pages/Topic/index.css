@@ -1,0 +1,77 @@
+h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 28px;
+}
+
+.tbl {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.tbl thead tr {
+    background-color: #f1a100;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tbl th,
+.tbl td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.tbl tbody tr:last-of-type {
+    border-bottom: 2px solid #f1a100;
+}
+
+
+.tbl tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.tbl tbody tr:hover {
+    background-color: #fff9ed;
+}
+
+
+.tbl td:first-child,
+.tbl th:first-child {
+    text-align: center;
+    width: 80px;
+}
+
+
+.tbl a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #f1a100;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.tbl a:hover {
+    background-color: #d18d00;
+    box-shadow: 0 2px 8px rgba(241, 161, 0, 0.4);
+    transform: translateY(-1px);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+    width: 100%;
+}

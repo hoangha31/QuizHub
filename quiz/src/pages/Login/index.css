@@ -1,0 +1,71 @@
+/* Container bao quanh form để căn giữa */
+.form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    /* Độ rộng vừa phải cho form login */
+    margin: 50px auto;
+    /* Căn giữa theo chiều ngang */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Style cho các khối div bọc input */
+.form div {
+    width: 100%;
+}
+
+/* Style cho các ô input */
+.form input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    /* Quan trọng để padding không làm tràn width */
+}
+
+.form input:focus {
+    border-color: #f1a100;
+    /* Màu cam khi click vào */
+    box-shadow: 0 0 0 3px rgba(241, 161, 0, 0.1);
+}
+
+/* Style cho nút Login */
+.form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f1a100;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s;
+    margin-top: 10px;
+}
+
+.form button:hover {
+    background-color: #d18d00;
+}
+
+.form button:active {
+    transform: scale(0.98);
+    /* Hiệu ứng nhấn nút */
+}

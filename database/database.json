@@ -1,0 +1,1028 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Van Ha",
+      "email": "havannguyen31032005@gmail.com",
+      "password": "1233",
+      "token": "abcxyz"
+    },
+    {
+      "id": 1773052297210,
+      "fullName": "Nguyen Van Ha",
+      "email": "23021540@vnu.edu.vn",
+      "password": "123",
+      "token": "122122"
+    },
+    {
+      "fullName": "Nguyen Thi Khanh Ly",
+      "email": "kly@gmail.com",
+      "password": "1234",
+      "token": "S@PfR98tQAmMAQfasgmI",
+      "id": 1773052297211
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "Lịch sử",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_cZSN76u9JE4EaY6ZPe9fRtpvmmvaPCdG2A&s"
+    },
+    {
+      "id": "2",
+      "name": "Địa Lý",
+      "image": "https://cdn.thuvienphapluat.vn/uploads/Hoidapphapluat/2023/NMT/thang3/29-03-2023/mon-dia-ly.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Sinh học",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7fjF0MT6ZQWwdclAwX56myQGeoKq8IsNNw&s"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "2",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "3",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "4",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "5",
+      "topicId": "1",
+      "question": "Cuộc Tổng tiến công và nổi dậy mùa Xuân năm 1975, đã lần lượt trải qua các chiến dịch",
+      "answers": [
+        "A. Tây Nguyên, Huế - Đà Nẵng, Hồ Chí Minh.",
+        "B. Huế - Đà Nẵng, Khe Sanh, Hồ Chí Minh.",
+        "C. Khe Sanh, Huế - Đà Nẵng, Hồ Chí Minh.",
+        "D. Tây Nguyên, Phước Long, Đường 9 - Nam Lào."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "6",
+      "topicId": "1",
+      "question": "Năm 1975, tỉnh nào ở miền Nam Việt Nam được giải phóng cuối cùng?",
+      "answers": [
+        "A. Đồng Nai.",
+        "B. Châu Đốc.",
+        "C. Bến Tre.",
+        "D. Kiên Giang."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "7",
+      "topicId": "1",
+      "question": "Ngày 29/3/1975 là ngày giải phóng thành phố",
+      "answers": [
+        "A. Huế.",
+        "B. Đà Nẵng.",
+        "C. Sài Gòn.",
+        "D. Nha Trang."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "8",
+      "topicId": "1",
+      "question": "Trong đường lối đổi mới đất nước (từ tháng 12/1986), Đảng Cộng sản Việt Nam xác định trọng tâm của công cuộc đổi mới là",
+      "answers": [
+        "A. kinh tế.",
+        "B. chính trị.",
+        "C. văn hóa.",
+        "D. tư tưởng."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "9",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "10",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "11",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "12",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "13",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "14",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "15",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "16",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicId": "1",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "1",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "2",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "3",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "4",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "5",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "6",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "7",
+      "topicId": "2",
+      "question": "Cuộc Tổng tiến công và nổi dậy mùa Xuân năm 1975, đã lần lượt trải qua các chiến dịch",
+      "answers": [
+        "A. Tây Nguyên, Huế - Đà Nẵng, Hồ Chí Minh.",
+        "B. Huế - Đà Nẵng, Khe Sanh, Hồ Chí Minh.",
+        "C. Khe Sanh, Huế - Đà Nẵng, Hồ Chí Minh.",
+        "D. Tây Nguyên, Phước Long, Đường 9 - Nam Lào."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "8",
+      "topicId": "2",
+      "question": "Năm 1975, tỉnh nào ở miền Nam Việt Nam được giải phóng cuối cùng?",
+      "answers": [
+        "A. Đồng Nai.",
+        "B. Châu Đốc.",
+        "C. Bến Tre.",
+        "D. Kiên Giang."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "9",
+      "topicId": "2",
+      "question": "Ngày 29/3/1975 là ngày giải phóng thành phố",
+      "answers": [
+        "A. Huế.",
+        "B. Đà Nẵng.",
+        "C. Sài Gòn.",
+        "D. Nha Trang."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "10",
+      "topicId": "2",
+      "question": "Trong đường lối đổi mới đất nước (từ tháng 12/1986), Đảng Cộng sản Việt Nam xác định trọng tâm của công cuộc đổi mới là",
+      "answers": [
+        "A. kinh tế.",
+        "B. chính trị.",
+        "C. văn hóa.",
+        "D. tư tưởng."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "11",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "12",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "13",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "14",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "15",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "16",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicId": "2",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "1",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "2",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "3",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "4",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "5",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "6",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "7",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "8",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "9",
+      "topicId": "3",
+      "question": "Cuộc Tổng tiến công và nổi dậy mùa Xuân năm 1975, đã lần lượt trải qua các chiến dịch",
+      "answers": [
+        "A. Tây Nguyên, Huế - Đà Nẵng, Hồ Chí Minh.",
+        "B. Huế - Đà Nẵng, Khe Sanh, Hồ Chí Minh.",
+        "C. Khe Sanh, Huế - Đà Nẵng, Hồ Chí Minh.",
+        "D. Tây Nguyên, Phước Long, Đường 9 - Nam Lào."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "10",
+      "topicId": "3",
+      "question": "Năm 1975, tỉnh nào ở miền Nam Việt Nam được giải phóng cuối cùng?",
+      "answers": [
+        "A. Đồng Nai.",
+        "B. Châu Đốc.",
+        "C. Bến Tre.",
+        "D. Kiên Giang."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "11",
+      "topicId": "3",
+      "question": "Ngày 29/3/1975 là ngày giải phóng thành phố",
+      "answers": [
+        "A. Huế.",
+        "B. Đà Nẵng.",
+        "C. Sài Gòn.",
+        "D. Nha Trang."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "12",
+      "topicId": "3",
+      "question": "Trong đường lối đổi mới đất nước (từ tháng 12/1986), Đảng Cộng sản Việt Nam xác định trọng tâm của công cuộc đổi mới là",
+      "answers": [
+        "A. kinh tế.",
+        "B. chính trị.",
+        "C. văn hóa.",
+        "D. tư tưởng."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "13",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "14",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "15",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "16",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "18",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "19",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "18",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "19",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicId": "3",
+      "question": "Sự kiện nào sau đây đánh dấu cuộc cách mạng dân tộc dân chủ nhân dân ở Việt Nam trên phạm vi cả nước đã hoàn thành",
+      "answers": [
+        "A. về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam (1973).",
+        "B. xe tăng của quân Giải phóng tiến vào Dinh Độc lập (30/4/1975).",
+        "C. Thắng lợi của Chiến dịch Hồ Chí Minh lịch sử năm 1975.",
+        "D. Những quyết định của kì họp đầu tiên Quốc hội khóa VI (7/1976)."
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "1",
+      "userId": 1773052297210,
+      "topicId": "1",
+      "answers": [
+        {
+          "questionId": "1",
+          "answer": 1
+        },
+        {
+          "questionId": "2",
+          "answer": 1
+        },
+        {
+          "questionId": "3",
+          "answer": 1
+        },
+        {
+          "questionId": "4",
+          "answer": 1
+        },
+        {
+          "questionId": "5",
+          "answer": 1
+        },
+        {
+          "questionId": "6",
+          "answer": 1
+        },
+        {
+          "questionId": "7",
+          "answer": 1
+        },
+        {
+          "questionId": "8",
+          "answer": 1
+        },
+        {
+          "questionId": "9",
+          "answer": 1
+        },
+        {
+          "questionId": "10",
+          "answer": 1
+        },
+        {
+          "questionId": "11",
+          "answer": 1
+        },
+        {
+          "questionId": "12",
+          "answer": 1
+        },
+        {
+          "questionId": "13",
+          "answer": 1
+        },
+        {
+          "questionId": "14",
+          "answer": 1
+        },
+        {
+          "questionId": "15",
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "userId": 1773052297210,
+      "topicId": "1",
+      "answers": [
+        {
+          "questionId": "1",
+          "answer": 1
+        },
+        {
+          "questionId": "2",
+          "answer": 2
+        },
+        {
+          "questionId": "3",
+          "answer": 1
+        },
+        {
+          "questionId": "4",
+          "answer": 0
+        },
+        {
+          "questionId": "5",
+          "answer": 2
+        },
+        {
+          "questionId": "6",
+          "answer": 3
+        },
+        {
+          "questionId": "7",
+          "answer": 3
+        },
+        {
+          "questionId": "8",
+          "answer": 1
+        },
+        {
+          "questionId": "9",
+          "answer": 1
+        },
+        {
+          "questionId": "10",
+          "answer": 0
+        },
+        {
+          "questionId": "11",
+          "answer": 1
+        },
+        {
+          "questionId": "12",
+          "answer": 0
+        },
+        {
+          "questionId": "13",
+          "answer": 1
+        },
+        {
+          "questionId": "14",
+          "answer": 2
+        },
+        {
+          "questionId": "15",
+          "answer": 0
+        },
+        {
+          "questionId": "16",
+          "answer": 2
+        },
+        {
+          "questionId": "17",
+          "answer": 1
+        }
+      ],
+      "id": "m0wF3P1"
+    },
+    {
+      "userId": 1773052297210,
+      "topicId": "1",
+      "answers": [
+        {
+          "questionId": "1",
+          "answer": 1
+        },
+        {
+          "questionId": "2",
+          "answer": 2
+        },
+        {
+          "questionId": "3",
+          "answer": 1
+        },
+        {
+          "questionId": "4",
+          "answer": 0
+        },
+        {
+          "questionId": "5",
+          "answer": 2
+        },
+        {
+          "questionId": "6",
+          "answer": 3
+        },
+        {
+          "questionId": "7",
+          "answer": 3
+        },
+        {
+          "questionId": "8",
+          "answer": 1
+        },
+        {
+          "questionId": "9",
+          "answer": 1
+        },
+        {
+          "questionId": "10",
+          "answer": 0
+        },
+        {
+          "questionId": "11",
+          "answer": 1
+        },
+        {
+          "questionId": "12",
+          "answer": 0
+        },
+        {
+          "questionId": "13",
+          "answer": 1
+        },
+        {
+          "questionId": "14",
+          "answer": 2
+        },
+        {
+          "questionId": "15",
+          "answer": 0
+        },
+        {
+          "questionId": "16",
+          "answer": 2
+        },
+        {
+          "questionId": "17",
+          "answer": 1
+        }
+      ],
+      "id": "MsWDGta"
+    },
+    {
+      "userId": 1773052297210,
+      "topicId": "2",
+      "answers": [
+        {
+          "questionId": "1",
+          "answer": 3
+        },
+        {
+          "questionId": "2",
+          "answer": 1
+        },
+        {
+          "questionId": "3",
+          "answer": 3
+        },
+        {
+          "questionId": "4",
+          "answer": 3
+        },
+        {
+          "questionId": "5",
+          "answer": 2
+        },
+        {
+          "questionId": "6",
+          "answer": 2
+        },
+        {
+          "questionId": "7",
+          "answer": 2
+        },
+        {
+          "questionId": "8",
+          "answer": 3
+        },
+        {
+          "questionId": "9",
+          "answer": 1
+        },
+        {
+          "questionId": "10",
+          "answer": 2
+        },
+        {
+          "questionId": "11",
+          "answer": 1
+        },
+        {
+          "questionId": "12",
+          "answer": 3
+        },
+        {
+          "questionId": "13",
+          "answer": 2
+        },
+        {
+          "questionId": "14",
+          "answer": 2
+        },
+        {
+          "questionId": "15",
+          "answer": 3
+        },
+        {
+          "questionId": "16",
+          "answer": 1
+        },
+        {
+          "questionId": "17",
+          "answer": 1
+        }
+      ],
+      "id": "8dcgOIH"
+    },
+    {
+      "userId": 1773052297210,
+      "topicId": "2",
+      "answers": [],
+      "id": "B6bmJ23"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+import { useParams } from "react-router-dom"
+import { useState, useEffect } from "react"
+import { getAnswer } from "../../services/answersService"
+import { getListQuestion } from "../../services/questionsService"
+import "./Result.scss"
+export default function Result() {
+    const params = useParams()
+    const [dataResult, setDataResult] = useState([])
+
+    useEffect(() => {
+        const fetchApi = async () => {
+            const dataAnswers = await getAnswer(params.id);
+            const dataQuestions = await getListQuestion(dataAnswers.topicId);
+            console.log("dataanswer :", dataAnswers.answers)
+            console.log(dataQuestions)
+
+            let resultFinal = [];
+            for (let i = 0; i < dataQuestions.length; i++) {
+                resultFinal.push({
+                    ...dataQuestions[i],
+                    ...dataAnswers.answers.find(item => item.questionId === dataQuestions[i].id)
+                });
+            }
+
+            console.log("resultFinal", resultFinal);
+            setDataResult(resultFinal)
+        }
+        fetchApi()
+    }, [])
+    return (
+        <>
+            <h1>Ket qua: </h1>
+            <div className="result__list"></div>
+            {dataResult.map((item, index) => (
+                <div className="result__item" key={item.id}>
+
+                    <p>Cau {index + 1}: {item.question}
+                        {item.correctAnswer === item.answer ? (
+                            <span className="result__tag result__tag--true">Đúng</span>
+                        ) : (
+                            <span className="result__tag result__tag--false">Sai</span>
+                        )}
+                    </p>
+
+
+                    {item.answers.map((itemAns, indexAns) => {
+                        let className = "";
+                        let checked = false;
+
+                        if (item.answer === indexAns) {
+                            checked = true;
+                            className = "result__item--selected"
+                        }
+
+                        if (item.correctAnswer === indexAns) {
+                            className += " result__item--result"
+                        }
+                        return (
+                            <div className="form-quiz__answer" key={indexAns}>
+                                <input type="radio" checked={checked} disabled />
+                                <label className={className}>{itemAns}</label>
+                            </div>
+                        )
+                    })}
+                </div>
+            ))}
+        </>
+    )
+}
