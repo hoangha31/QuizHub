@@ -1,102 +1,108 @@
-    .result__tag--true {
-        color: green;
-    }
+$color-success-light: #e6f7ff;
+$color-success-main: #52c41a;
+$color-success-bg: #f6ffed;
+$color-success-border: #b7eb8f;
 
-    .result__tag--false {
-        color: red;
-    }
+$color-error-bg: #fff1f0;
+$color-error-main: #ff4d4f;
+$color-error-border: #ffa39e;
 
-    .result__item--selected {
-        color: red
-    }
+.result {
+    &__item {
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        text-align: left;
 
-    .result__item--result {
-        color: green;
-    }
+        p {
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
 
-    .result {
-        &__item {
-            margin-bottom: 30px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            text-align: left;
+        .form-quiz__answer {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            border: 1px solid #f0f0f0;
 
-            p {
-                font-size: 18px;
-                font-weight: 600;
-                display: flex;
-                align-items: center;
-                gap: 15px;
-                margin-bottom: 20px;
+            input[type="radio"] {
+                width: 18px;
+                height: 18px;
+                cursor: not-allowed;
             }
 
-
-            .form-quiz__answer {
-                display: flex;
-                align-items: center;
-                gap: 12px;
-                padding: 10px;
-                border-radius: 6px;
-                margin-bottom: 8px;
-                border: 1px solid transparent;
-
-                input[type="radio"] {
-                    width: 18px;
-                    height: 18px;
-                    cursor: not-allowed;
-                }
-
-                label {
-                    flex: 1;
-                    font-size: 16px;
-                    cursor: not-allowed;
-                }
-            }
-
-
-            &--selected {
-                color: #fff !important;
-                background-color: #ff4d4f;
-                padding: 5px 10px;
+            label {
+                flex: 1;
+                font-size: 16px;
+                cursor: not-allowed;
+                padding: 4px 8px;
                 border-radius: 4px;
             }
 
+            .result__item--selected {
+                background-color: $color-error-bg;
+                color: $color-error-main !important;
+                border: 1px solid $color-error-border;
+                font-weight: 500;
+            }
 
-            &--result {
-                color: #fff !important;
-                background-image: linear-gradient(to right, #52c41a, #73d13d); // Màu xanh lá
-                padding: 5px 10px;
-                border-radius: 4px;
+            .result__item--result {
+                background-color: $color-success-bg;
+                color: $color-success-main !important;
+                border: 1px solid $color-success-border;
                 font-weight: bold;
             }
 
-            &--selected.result__item--result {
-                background-color: #52c41a;
-            }
-        }
 
-
-        &__tag {
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 14px;
-            color: white;
-            text-transform: uppercase;
-
-            &--true {
-                background-color: #52c41a;
-            }
-
-            &--false {
-                background-color: #ff4d4f;
+            .result__item--selected.result__item--result {
+                background-color: $color-success-bg;
+                border-color: $color-success-border;
             }
         }
     }
 
+    &__tag {
+        padding: 4px 15px;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
 
-    h1 {
-        color: #333;
-        margin-bottom: 30px;
+        &--true {
+            background-color: $color-success-bg;
+            color: $color-success-main;
+            border: 1px solid $color-success-border;
+        }
+
+        &--false {
+            background-color: $color-error-bg;
+            color: $color-error-main;
+            border: 1px solid $color-error-border;
+        }
     }
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #f1a100;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #d18d00;
+        box-shadow: 0 2px 8px rgba(241, 161, 0, 0.3);
+    }
+}

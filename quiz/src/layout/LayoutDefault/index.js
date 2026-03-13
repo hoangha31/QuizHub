@@ -72,7 +72,7 @@ export default function LayoutDefault() {
                     <Outlet />
                 </main>
                 <footer className="layout-default__footer"> I
-                    Copyright @ 2023 by NVH
+                    Copyright @ 2026 by NVH
                 </footer>
             </div>
 

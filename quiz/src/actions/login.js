@@ -5,9 +5,3 @@ export const checkLogin = (status) => {
     }
 }
 
-export const checkLogout = (status) => {
-    return {
-        type: "CHECK_LOGOUT",
-        status: status
-    }
-}

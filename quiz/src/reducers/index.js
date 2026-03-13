@@ -1,10 +1,10 @@
 import loginReducer from "./login";
-
+import scoreReducer from "./score"
 import { combineReducers } from "redux";
 
 
 const allReducers = combineReducers({
-    loginReducer,
+    loginReducer, scoreReducer
     // them nhieu reducer o day     
 })
 

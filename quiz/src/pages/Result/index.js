@@ -2,11 +2,15 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
 import { getAnswer } from "../../services/answersService"
 import { getListQuestion } from "../../services/questionsService"
+import { useNavigate } from "react-router-dom";
 import "./Result.scss"
+
 export default function Result() {
     const params = useParams()
     const [dataResult, setDataResult] = useState([])
-
+    const [trueAns, setTrueAns] = useState(0)
+    const [totalQues, setTotalQues] = useState(0)
+    const navigate = useNavigate()
     useEffect(() => {
         const fetchApi = async () => {
             const dataAnswers = await getAnswer(params.id);
@@ -21,15 +25,27 @@ export default function Result() {
                     ...dataAnswers.answers.find(item => item.questionId === dataQuestions[i].id)
                 });
             }
-
             console.log("resultFinal", resultFinal);
+            let correctAnswer = 0
+            for (let i = 0; i < resultFinal.length; i++) {
+                if (resultFinal[i].answer == resultFinal[i].correctAnswer) {
+                    correctAnswer += 1
+                }
+            }
+            setTrueAns(correctAnswer);
+            setTotalQues(resultFinal.length)
             setDataResult(resultFinal)
         }
         fetchApi()
     }, [])
+
+    const onClick = () => {
+        navigate(-1);
+    }
+
     return (
         <>
-            <h1>Ket qua: </h1>
+            <h1>Ket qua: {trueAns} / {totalQues}</h1>
             <div className="result__list"></div>
             {dataResult.map((item, index) => (
                 <div className="result__item" key={item.id}>
@@ -64,6 +80,7 @@ export default function Result() {
                     })}
                 </div>
             ))}
+            <button onClick={onClick}>Làm lại</button>
         </>
     )
 }
